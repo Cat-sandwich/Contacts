@@ -5,8 +5,12 @@ public class Contact {
     private String value;
     public Contact(String name, String value)
     {
-        this.name = name;
-        this.value = value;
+        if (name != null && value != null)
+        {
+            this.name = name;
+            this.value = value;
+        }
+
     }
 
     public void setName(String name) {

@@ -66,10 +66,13 @@ public class Main {
     }
     public static Contact[] delete_contact(Contact[] contacts, int current)
     {
+        contacts[current]=null;
         while(contacts[current+1] != null && current!= 9) {
 
             contacts[current] = contacts[current+1];
+            current++;
         }
+        contacts[current]=null;
         return contacts;
     }
     public static Contact edit_contact(Contact contact,Scanner sc)
@@ -90,7 +93,10 @@ public class Main {
         String value = sc.nextLine();
         System.out.println("¬ведите им€ контакта:");
         String name = sc.nextLine();
-        return new Contact(name, value);
+        if (name != null && value != null)
+            return new Contact(name, value);
+        else
+            return null;
 
     }
 

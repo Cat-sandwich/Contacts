@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3435315-5958-4e70-92c8-3e150727613e" name="Changes" comment="Start work">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contacts/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contacts/task" afterDir="false" />
+    <list default="true" id="e3435315-5958-4e70-92c8-3e150727613e" name="Changes" comment="Выполнено все, кроме пункта 9">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contacts/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contacts/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706789909739</updated>
-      <workItem from="1706789911687" duration="5684000" />
+      <workItem from="1706789911687" duration="7133000" />
     </task>
     <task id="LOCAL-00001" summary="ыфвфыв">
       <created>1706790328011</created>
@@ -78,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706790372738</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Выполнено все, кроме пункта 9">
+      <created>1706796201038</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706796201038</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +116,23 @@
     <MESSAGE value="ыфвфыв" />
     <MESSAGE value="start" />
     <MESSAGE value="Start work" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start work" />
+    <MESSAGE value="Выполнено все, кроме пункта 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Выполнено все, кроме пункта 9" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/contacts/Main.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/contacts/Main.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
